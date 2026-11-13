@@ -1,0 +1,22 @@
+#Dependencies (recreated by npm install)
+node_modules/
+
+#Secrets and local config
+.env
+.env.*
+!.env.example
+
+#logs
+logs/
+*.log
+npm-debug.log*
+
+#Runtime data
+data/*.tmp
+data/activity.log
+
+#OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

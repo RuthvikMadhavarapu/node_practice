@@ -1,0 +1,15 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "dev":"node --watch script.js",
+    "greet":"node greet.js",
+    "info":"node -v && npm -v"
+    
+  },
+  "keywords": [],
+  "type": "module"
+}
